@@ -1,0 +1,37 @@
+/* MainPage.css */
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.greeting-text {
+  font-size: 3vw; /* 24px в процентах от ширины окна просмотра */
+  font-weight: bold;
+  color: #ff69b4; /* Розовый цвет текста */
+  margin-bottom: 2vw; /* 20px в процентах от ширины окна просмотра */
+}
+
+.MainBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MainBlock img {
+  width: 100%; /* Занимает 100% ширины родительского блока */
+  height: auto;
+  margin-top: 2vw; /* 20px в процентах от ширины окна просмотра */
+}
+
+.pink-button {
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 1vw; /* 10px в процентах от ширины окна просмотра */
+  border: none;
+  border-radius: 0.5vw; /* 5px в процентах от ширины окна просмотра */
+  cursor: pointer;
+  width: 100%; /* Занимает 100% ширины родительского блока */
+}
